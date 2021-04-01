@@ -27,6 +27,7 @@
     display: flex;
 
     border-top: 1px solid rgb(128, 128, 128);
+    background-color: rgb(223, 223, 223);
 }
 
 .stats > li {
@@ -36,8 +37,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: rgb(223, 223, 223);
 }
 
 .stats > li:not(:last-child) {
