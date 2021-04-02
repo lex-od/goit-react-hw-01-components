@@ -1,0 +1,36 @@
+.transaction-history {
+    border-collapse: collapse;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+        5px 5px 15px 5px #00000000;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.transaction-history th,
+.transaction-history td {
+    padding: 5px;
+    min-width: 150px;
+
+    border: 1px solid #a8a8a8;
+}
+
+.head-raw {
+    background-color: #ff969b;
+}
+
+.payment {
+    background-color: #fffea6;
+}
+
+.invoice {
+    background-color: #cbff7d;
+}
+
+.withdrawal {
+    background-color: #c3fff2;
+}
+
+.deposit {
+    background-color: #ddd7ff;
+}
